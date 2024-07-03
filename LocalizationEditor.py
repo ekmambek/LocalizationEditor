@@ -117,6 +117,9 @@ root.geometry(centerWindowToDisplay(root, 540, 350))
 root.resizable(False, False)
 root.title("Localization Editor")
 
+menubar = tkinter.Menu()
+root.config(menu = menubar)
+
 keysFrame = tkinter.Frame(root)
 keysFrame.place(x = 0, y = 0, width = 256, height = 350)
 
